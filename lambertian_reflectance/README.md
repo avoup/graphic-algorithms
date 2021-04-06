@@ -13,5 +13,5 @@ Code is compiled, run lambertian_reflectance.exe file to draw lambertian reflect
 ### Iluminated smooth matte surface
 ![lambertian reflectance](https://github.com/avoup/graphic-algorithms/raw/master/lambertian_reflectance/screenshots/lambertian_reflectance.jpg)
 
-### Bezier curve with dropped lines on planes
+### Iluminated wavy matte surface
 ![lambertian reflectance wavy](https://github.com/avoup/graphic-algorithms/raw/master/lambertian_reflectance/screenshots/lambertian_reflectance_wavy.jpg)
