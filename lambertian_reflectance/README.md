@@ -14,4 +14,4 @@ Code is compiled, run lambertian_reflectance.exe file to draw lambertian reflect
 ![lambertian reflectance](https://github.com/avoup/graphic-algorithms/raw/master/lambertian_reflectance/screenshots/lambertian_reflectance.jpg)
 
 ### Bezier curve with dropped lines on planes
-![lambertian reflectance wavy](hhttps://github.com/avoup/graphic-algorithms/raw/master/lambertian_reflectance/screenshots/lambertian_reflectance_wavy.jpg)
+![lambertian reflectance wavy](https://github.com/avoup/graphic-algorithms/raw/master/lambertian_reflectance/screenshots/lambertian_reflectance_wavy.jpg)
