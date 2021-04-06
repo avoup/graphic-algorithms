@@ -12,13 +12,13 @@ Run bezier_curve_3d.exe file to draw bezier.
 Screenshots of figures.
 
 ### Simple bezier curve with projections
-![bezier curve 3d](/screenshots/bezier_simple.jpg)
+![bezier curve 3d](https://github.com/avoup/graphic-algorithms/raw/master/bezier_curve_3d/screenshots/bezier_simple.jpg)
 
 ### Bezier curve with dropped lines on planes
-![bezier dropped lines](/screenshots/bezier_line_drop.jpg)
+![bezier dropped lines](https://github.com/avoup/graphic-algorithms/raw/master/bezier_curve_3d/screenshots/bezier_line_drop.jpg)
 
 ### Simple wireframe cube
-![cube](/screenshots/cube.jpg)
+![cube](https://github.com/avoup/graphic-algorithms/raw/master/bezier_curve_3d/screenshots/cube.jpg)
 
 ### Bezier inside wireframe cube
-![bezier inside wireframe cube](/screenshots/bezier_in_cube.jpg)
+![bezier inside wireframe cube](https://github.com/avoup/graphic-algorithms/raw/master/bezier_curve_3d/screenshots/bezier_in_cube.jpg)
