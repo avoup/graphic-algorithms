@@ -18,7 +18,7 @@ struct coordSystem
 	double alpha;
 };
 
-// calculate 3d point coordinate on 2d plane
+// Calculate 3d point coordinates on 2d plane
 coord2D calculate2DPoint(coordSystem base, coord3D p)
 {
 	return coord2D {
@@ -27,13 +27,14 @@ coord2D calculate2DPoint(coordSystem base, coord3D p)
 	};
 }
 
-// draw 3d coordinate on 2d plane
+// Draw 3d point coordinates on 2d plane
 void drawPixel3D(coordSystem base, coord3D p, int color)
 {
 	coord2D d = calculate2DPoint(base, p);
 	putpixel(d.x, d.y, color);
 }
 
+// Draw line 3d
 void drawLine3D(coordSystem base, coord3D p0, coord3D p1, int color, short style = 0, short width = 1)
 {
 	int x0, y0, x1, y1;
@@ -49,6 +50,7 @@ void drawLine3D(coordSystem base, coord3D p0, coord3D p1, int color, short style
 	line (x0, y0, x1, y1);
 };
 
+// Draw XYZ axises
 void drawCoordSystem (coordSystem base, int size) 
 {		
 	coord3D p0  = {0,    0,    0};
@@ -61,6 +63,9 @@ void drawCoordSystem (coordSystem base, int size)
 	drawLine3D ( base, p0, p1z, BLUE,  1, 3 );
 };
 
+/**
+* Draw sine wave net 3D
+*/
 void net (coordSystem base, double increment)
 {
 	double p = 3.14;
@@ -73,7 +78,7 @@ void net (coordSystem base, double increment)
 	{			
 		for(double t = np; t < p; t+= scaledI){
 			double x_y = sin(t) + sin(T);
-			double z_y = sin(T) + sin(t);
+			double z_y = x_y;
 			
 			coord3D x_p =  {scale * t, scale * x_y, scale * T};
 			coord3D z_p =  {scale * T, scale * z_y, scale * t};
@@ -95,7 +100,7 @@ int main()
 	
 	int w = 800;
 	int h = 800;
-	double a = 0.4;
+	double a = 0.4; // View angle
 	
 	initwindow(w, h);
 	cleardevice();	
@@ -103,7 +108,7 @@ int main()
 	coordSystem base = {w/2, h/2, a}; // base point for coordinate system
 	drawCoordSystem(base, 300); // draw coordinate system	
 	
-	net(base, 70); 
+	net(base, 70); // Draw sine wave net 3D
 	
 	getch();	
 	closegraph();
