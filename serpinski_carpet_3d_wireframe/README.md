@@ -11,5 +11,5 @@ Code is compiled, run serpinski_cube.exe file to draw it.
 ## Screenshots
 
 ### Serpinski cube
-![serpinski cube](https://github.com/avoup/graphic-algorithms/raw/master/serpinski_cube_3d_wireframe/screenshots/serpinski-cube.jpg)
+![serpinski cube](https://github.com/avoup/graphic-algorithms/raw/master/serpinski_carpet_3d_wireframe/screenshots/serpinski-cube.jpg)
 
