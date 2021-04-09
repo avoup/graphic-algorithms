@@ -24,7 +24,7 @@ void serpinskiCarpet(double x = 250, double y = 250, double size = 500, int n = 
 
 int main()
 {
-	int depth = 4;
+	int depth = 4; // Depth of serpinski carpet
 	double wSize = 500;
 	
 	initwindow(wSize, wSize);
