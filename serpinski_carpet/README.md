@@ -11,5 +11,5 @@ Code is compiled, run serpinski_carpet.exe file to draw it.
 ## Screenshots
 
 ### Serpinski carpet
-![serpinski carpet](https://github.com/avoup/graphic-algorithms/raw/master/net/screenshots/serpinski-carpet.jpg)
+![serpinski carpet](https://github.com/avoup/graphic-algorithms/raw/master/serpinski_carpet/screenshots/serpinski-carpet.jpg)
 
